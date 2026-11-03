@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #000000; 
+    height: 100px;             
+    padding: 40px;
+    margin-bottom: 10px;
+               
+    display: flex;
+     align-items: center;      
+    justify-content: space-between; 
+}
+
+
+.logofriends img {
+    height: 50px;      
+    width: auto;       
+    display: block;    
+}
+
+.nav-links {
+    list-style: none;  
+    display: flex;     
+    gap: 25px;        
+}
+
+.nav-links a {
+    color: rgb(255, 255, 23);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: #f3fa1c;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    
+
+    display: inline-block; 
+    
+    
+    transition: transform 0.25s ease, color 0.25s ease;
+    
+    
+    text-underline-offset: 6px; 
+    text-decoration-thickness: 3px; 
+}
+
+
+.nav-links a:hover,
+.nav-links a:focus,
+.nav-links a.activo {
+    transform: scale(1.15); 
+    color: #ffbe0b; 
+    text-decoration: underline;
+    text-decoration-color: #ffbe0b;
+}
+
+
+.nav-links a:active {
+    transform: scale(0.95);
+}

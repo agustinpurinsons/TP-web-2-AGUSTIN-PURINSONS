@@ -4,7 +4,7 @@ html{
 @font-face {
     font-family: 'FriendsFont';
     
-    src: url('/TP-web-2-AGUSTIN-PURINSONS-main/FONT/gabriel-weiss-friends-font/GabrielWeissFriendsFont-VGq7B.woff2') format('woff2');
+    src: url('/FONT/gabriel-weiss-friends-font/GabrielWeissFriendsFont-VGq7B.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }

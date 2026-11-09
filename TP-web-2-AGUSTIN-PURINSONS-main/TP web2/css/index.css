@@ -1,45 +1,83 @@
-header{
-    margin-bottom: 10px;
+header {
+    height: 350px; 
+    background-image: url("../imagenes/Friends-Fountain-1536x960.jpg");
+    background-size: cover;         
+    background-position: center 85%;
+    opacity: 0.9;
+    
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
-
 header h1 {
-    color: #d4af37;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
+    color: #f4f0f5;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.85); 
+}
+
+header h2 {
+    color: #f4f0f5;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.85);
 }
 
 #sobrelaserie {
     display: flex;
-    gap: 20px; 
-    padding: 20px; 
+    gap: 30px; 
+    padding: 40px; 
     justify-content: center; 
-    align-items: flex-start; 
+    align-items:left; 
     background-color: #29272b;
-} 
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
-#friends {
-    flex: 1; 
-    display: flex;
-    flex-direction: column;
-    height: 400px;
-    
+.contenido {
+    flex: 1;
+    max-width: 800px;
+}
+
+
+.contenido h3 {
+    color: #d4af37;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    border-left: 4px solid #ffe600;
+    padding-left: 12px;
+}
+
+.contenido p {
+    color: #dddddd;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.contenido p strong {
+    color: #ffffff;
 }
 
 #derecha {
-background-color: #29272b;
-    width: 38%; 
+    width: 35%;
+    min-width: 280px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    padding: 20px;
-    border-radius: 8px;
-
+    align-items: center;
 }
 
+#derecha img {
+    width: 100%;
+    max-width: 380px;
+    border-radius: 12px;
+    border: 2px solid #d4af37;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
 
 #personajes {
     margin-top: 1px;
@@ -47,17 +85,6 @@ background-color: #29272b;
     background-color: #29272b; 
     color: #ffffff;
 }
-
-
-#personajes h3 {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 40px;
-    color: #d4af37;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
 
 .personajes {
     display: grid;
@@ -122,12 +149,7 @@ background-color: #29272b;
     background-color: #29272b;
     padding: 10px;
     margin-top: 10px;
-}
-
-#temporadas h2
-{
-    color: #d4af37;
-    text-align: center;
+    
 }
 
 details {
@@ -202,18 +224,13 @@ details li:hover {
     margin-top: 10px;
 }
 
-
-#introduccion-texto h2 {
-    color: #d4af37;
-    text-align: center;
+.introduccion p {
+    color: #dddddd;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 15px;
 }
-
-#introduccion-texto h3 {
-    color: #ffffff;
-    text-align: center;
-    margin: 5px;
-}
-
 
 .media-container {
     gap: 30px;
@@ -239,6 +256,8 @@ details li:hover {
     flex: 1;
   
 }
+
+
 
 
 .media-card:hover {
@@ -294,7 +313,7 @@ details li:hover {
 #formulario p {
     color: #dddddd;
     text-align: center;
-    font-size: 1rem;
+    font-size: 20px;
     max-width: 500px;
     margin-top: 0;
     margin-bottom: 25px;
@@ -307,7 +326,7 @@ details li:hover {
     border-radius: 12px;
     border: 1px solid #444;
     width: 100%;
-    max-width: 500px;
+    max-width: 50%;
     display: flex;
     flex-direction: column;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);

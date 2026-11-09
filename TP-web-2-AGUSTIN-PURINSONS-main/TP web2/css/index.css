@@ -123,7 +123,7 @@ header h2 {
 
 
 .personaje:hover img {
-    box-shadow: 0 0 18px #f3c623;
+    box-shadow: 0 0 30px #f3c623;
 }
 
 
@@ -139,7 +139,6 @@ header h2 {
 
 
 .personaje p {
-    font-size: 0.95rem;
     line-height: 1.5;
     color: #dddddd;
 }
